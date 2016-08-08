@@ -83,8 +83,8 @@ var main = function() {
 	
 	window.parkExit = new Signboard(
 								'box', 
-								new THREE.Vector3(80, -2, -135),
-								new THREE.Vector3(3, 3, 3),
+								new THREE.Vector3(95, -2, -165),
+								new THREE.Vector3(4, 4, 4),
 								0xffff00);
 	window.parkExit.tapAction = function() {
 		materialIndex = 0;
